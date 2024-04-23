@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1200px;
+    /* width: 90%; */
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./shara\ desert.jpg);
+    height: 98vh;
+}
+
+.navbar {
+    margin-top: 3rem;
+
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 6rem;
+
+    height: 100%;
+    width: 20%;
+}
+
+.nav-item {
+
+    width: 40%;
+    height: 100%;
+    font-size: 3rem;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.item {
+
+
+
+    text-transform: uppercase;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+
+
+}
+
+@media screen and (max-width:991px) {
+    .item {
+        display: none;
+
+    }
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10rem;
+
+}
+
+.item a:hover {
+    border-bottom: 2px solid white;
+    margin-top: 5rem;
+}
+
+.menu {
+    margin-left: 5rem;
+    margin-top: 3rem;
+
+}
+
+@media screen and (max-width:991px) {
+    .menu {
+        display: block;
+
+
+    }
+
+}
+
+.menu:hover {
+
+    transform: scale(1.2);
+}
+
+.header-content {
+    display: flex;
+
+
+}
+
+@media screen and (max-width:991px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.content {
+
+    width: 60%;
+    margin-top: 10rem;
+
+}
+
+@media screen and (max-width:991px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+h1 {
+    font-size: 10rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.btn {
+    height: 40px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3rem;
+
+
+
+}
+
+.btn a {
+    color: black;
+}
+
+.content-img {
+
+    width: 40%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 5rem;
+
+}
+
+@media screen and (max-width:991px) {
+    .content-img {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+.grid {
+    background-color: white;
+    width: 90%;
+    height: 230px;
+    margin: 1rem auto;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.grid1 {
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    transition: 1s;
+}
+
+.grid1:hover {
+    transform: translateY(-6%);
+}
+
+.grid2 {
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    transition: 1s;
+}
+
+.grid2:hover {
+    transform: translateY(-6%);
+}
+
+.grid3 {
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    transition: 1s;
+}
+
+.grid3:hover {
+    transform: translateY(-6%);
+}
+
+.grid4 {
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    transition: 1s;
+}
+
+.grid4:hover {
+    transform: translateY(-6%);
+}
+
+h2 {
+    color: white;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
